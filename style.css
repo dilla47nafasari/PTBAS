@@ -1,0 +1,276 @@
+/* font */
+@import url('https://fonts.googleapis.com/css2?family=Inria+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
+
+* {
+    font-family: inria sans;
+}
+
+
+.btn {
+    background-color: #009FCE;
+    color: white;
+}
+
+
+.btn:hover {
+    border: 1px solid #009FCE;
+    color: #009FCE;
+}
+
+/* navbar */
+.navbar-brand img {
+    width: 70px;
+}
+
+.navbar-nav {
+    margin-left: auto;
+}
+
+.navbar-nav .nav-link {
+    margin-right: 20px;
+}
+
+/* banner */
+.banner {
+    background-image: url(./aset/home-bg.png);
+    background-size: cover;
+    color: white;
+    height: auto;
+    padding: 100px 0;
+}
+
+.banner-layanan {
+    background-image: url(./aset/laynanan-bg.png);
+    background-size: cover;
+    color: white;
+    height: auto;
+    padding: 100px 0;
+}
+
+.banner-profil {
+    background-image: url(./aset/profil-bg.png);
+    background-size: cover;
+    color: white;
+    height: auto;
+    padding: 100px 0;
+}
+
+/* jasa */
+.jasa {
+    margin-top: 50px;
+}
+
+.jasa .lainnya {
+    color: #009FCE;
+    text-decoration: none;
+    display: flex;
+    justify-content: end;
+}
+
+.jasa .card {
+    border: none;
+}
+
+.jasa .card .card-title {
+    position: absolute;
+    bottom: 10px;
+}
+
+/* galeri */
+.galeri {
+    margin-top: 50px;
+}
+
+.galeri .carousel-inner {
+    background-color: black;
+    border-radius: 10px;
+}
+
+.galeri .carousel-item {
+    height: 500px;
+    object-fit: cover;
+}
+
+/* cta */
+.cta {
+    margin-top: 50px;
+}
+
+.cta img {
+    width: 80%;
+}
+
+/* mitra */
+.mitra {
+    margin-top: 50px;
+}
+
+.mitra .nama-mitra {
+    margin-top: 20px;
+}
+
+.mitra .nama-mitra .card img {
+    width: 100%;
+}
+
+.mitra .nama-mitra h6 {
+    font-size: 12px;
+    text-transform: uppercase;
+}
+
+/* profil */
+.sejarah {
+    margin-top: 50px;
+}
+
+.sejarah img {
+    width: 80%;
+}
+
+.visimisi {
+    margin-top: 50px;
+}
+
+.visimisi img {
+    width: 80%;
+}
+
+@media (max-width: 768px) {
+    .btn {
+        background-color: #009FCE;
+        color: white;
+    }
+
+    body {
+        text-align: center;
+    }
+
+
+    .btn:hover {
+        border: 1px solid #009FCE;
+        color: #009FCE;
+    }
+
+    /* navbar */
+    .navbar {
+        text-align: center;
+    }
+    .navbar-brand img {
+        width: 70px;
+    }
+
+    .navbar-nav .nav-link {
+        margin-right: 0;
+    }
+
+    /* banner */
+    .banner {
+        background-image: url(./aset/home-bg.png);
+        background-size: cover;
+        color: white;
+        height: auto;
+        padding: 100px 0;
+    }
+
+    .banner-layanan {
+        background-image: url(./aset/laynanan-bg.png);
+        background-size: cover;
+        color: white;
+        height: auto;
+        padding: 100px 0;
+    }
+
+    .banner-profil {
+        background-image: url(./aset/profil-bg.png);
+        background-size: cover;
+        color: white;
+        height: auto;
+        padding: 100px 0;
+    }
+
+    /* jasa */
+    .jasa {
+        margin-top: 50px;
+    }
+
+    .jasa .lainnya {
+        color: #009FCE;
+        text-decoration: none;
+        display: flex;
+        justify-content: center;
+    }
+
+    .jasa .card {
+        border: none;
+        margin-top: 10px;
+    }
+
+    .jasa .card .card-title {
+        position: absolute;
+        bottom: 10px;
+    }
+
+    /* galeri */
+    .galeri {
+        margin-top: 50px;
+    }
+
+    .galeri .carousel-inner {
+        background-color: black;
+        border-radius: 10px;
+    }
+
+    .galeri .carousel-item {
+        height: auto;
+        object-fit: cover;
+    }
+
+    /* cta */
+    .cta {
+        margin-top: 50px;
+    }
+
+    .cta img {
+        margin-top: 10px;
+        width: 100%;
+    }
+
+    /* mitra */
+    .mitra {
+        margin-top: 50px;
+    }
+
+    .mitra .card {
+        margin-top: 10px;
+    }
+    .mitra .nama-mitra {
+        margin-top: 20px;
+    }
+
+    .mitra .nama-mitra .card img {
+        width: 20%;
+    }
+
+    .mitra .nama-mitra h6 {
+        font-size: 12px;
+        text-transform: uppercase;
+    }
+
+    /* profil */
+    .sejarah {
+        margin-top: 50px;
+    }
+
+    .sejarah img {
+        width: 100%;
+    }
+
+    .visimisi {
+        margin-top: 50px;
+    }
+
+    .visimisi img {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+}
